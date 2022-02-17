@@ -1,11 +1,17 @@
-//1. Write a function that takes a positive number and prints all even numbers from 0 – number
+// Write a function that returns the number of vowels in string
+// count vowels in string
 
-function printEvenTo(number){
-  for(let i = 0; i <= number; i++){
-    if (i % 2 === 0){
-      console.log(i)
-    }  
-  }
+
+
+function vowelCount(string){
+  let count = 0;
+  const vowels = ['a', 'e', 'i','o', 'u']
+  
+    for(let i = 0; i <string.length; i++){
+      //i want the count to go up everytime there is a vowel in the string
+      if(string[i] === 'a' || string[i] === 'e' ||string[i] ==='i'|| string[i] === 'o' || string[i] === 'u')
+        count++;
+    } 
+   return count
 }
-printEvenTo(10)
-
+console.log(vowelCount('Hi there'));

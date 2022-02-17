@@ -202,13 +202,14 @@
 //  console.log(arraySwap)
 
 
-
-
 // 9. write a function that takes a array and a second argument and returns the index in the array of the second argument
+// const arrayOfFruits = ['apple', 'orange', 'grape']
 
+// function findIndexOfItemInArray(array, itemInArray){
+//   return array.indexOf(itemInArray)
+// }
 
-
-
+// console.log(findIndexOfItemInArray(arrayOfFruits,'grape'))
 
 
 // 10. *****DONE*****
