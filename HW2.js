@@ -109,9 +109,9 @@ const characters = [
 // console.log(totalMass)
 
 //2. Get total height of all characters
-// let height =[172, 202, 150, 188]
+// 
 // let totalHeight = height.reduce((accum, num)=>{
-//   return accum + num
+//   return accum + num.height
 // },0)
 // console.log('return of total height')
 // console.log(totalHeight)
@@ -139,7 +139,9 @@ const characters = [
 
 
 //4. Get total number of characters in all the character names
-
+let totalNameCharacters = characters.reduce((accum, num)=>{
+    return accum + num.name.length}, 0)
+console.log(totalNameCharacters)
 
 
 
